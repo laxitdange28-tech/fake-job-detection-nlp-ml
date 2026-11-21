@@ -1,0 +1,9 @@
+services:
+  api:
+    image: laxitdange/fake-job-detection:v1
+    container_name: fake-job-compose
+
+    ports:
+      - "8002:8000"
+
+    restart: unless-stopped

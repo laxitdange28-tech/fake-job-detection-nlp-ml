@@ -8,8 +8,6 @@ from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer
 
 
-# NLTK data location
-nltk.data.path.append("/home/codespace/nltk_data")
 
 
 # Initialize NLP tools

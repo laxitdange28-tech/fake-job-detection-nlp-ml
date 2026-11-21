@@ -1,8 +1,8 @@
-pandas
-numpy
-scikit-learn
-nltk
-joblib
-fastapi
-uvicorn[standard]
-kagglehub[pandas-datasets]
+pandas==3.1.1
+numpy==2.5.4
+scikit-learn==1.9.1
+nltk==3.10.4
+joblib==1.6.0
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+kagglehub[pandas-datasets]==1.0.3
