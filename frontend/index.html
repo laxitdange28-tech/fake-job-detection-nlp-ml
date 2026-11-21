@@ -1,0 +1,80 @@
+?variant="document" title="frontend/index.html" id="63821"}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fake Job Detection System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Fake Job Detection System</h1>
+        <p>AI-powered job posting verification</p>
+    </header>
+
+    <main class="container">
+
+        <h2>Check Job Posting</h2>
+
+        <form id="jobForm">
+
+            <label>Job Title</label>
+            <input type="text" id="title" required>
+
+            <label>Company Profile</label>
+            <textarea id="company_profile"></textarea>
+
+            <label>Job Description</label>
+            <textarea id="description" required></textarea>
+
+            <label>Requirements</label>
+            <textarea id="requirements"></textarea>
+
+            <label>Benefits</label>
+            <textarea id="benefits"></textarea>
+
+            <label>Employment Type</label>
+            <input type="text" id="employment_type" value="Full-time">
+
+            <label>Required Experience</label>
+            <input type="text" id="required_experience" value="Missing">
+
+            <label>Required Education</label>
+            <input type="text" id="required_education" value="Missing">
+
+            <label>Industry</label>
+            <input type="text" id="industry" value="Missing">
+
+            <label>Function</label>
+            <input type="text" id="function" value="Missing">
+
+            <label>Location</label>
+            <input type="text" id="location" value="Missing">
+
+            <label>Telecommuting (0 = No, 1 = Yes)</label>
+            <input type="number" id="telecommuting" min="0" max="1" value="0">
+
+            <label>Company Logo (0 = No, 1 = Yes)</label>
+            <input type="number" id="has_company_logo" min="0" max="1" value="0">
+
+            <label>Screening Questions (0 = No, 1 = Yes)</label>
+            <input type="number" id="has_questions" min="0" max="1" value="0">
+
+            <button type="submit">Check Job</button>
+
+        </form>
+
+        <div id="result"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
