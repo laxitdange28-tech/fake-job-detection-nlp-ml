@@ -1,5 +1,5 @@
 // FastAPI backend URL
-const API_URL = "https://fuzzy-happiness-wv74j4v5qx5vhg79w-8000.app.github.dev/predict";
+const API_URL = "https://fake-job-detection-nlp-ml.onrender.com/predict";
 // Get HTML form
 const jobForm = document.getElementById("jobForm");
 const resultDiv = document.getElementById("result");
